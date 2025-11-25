@@ -3,6 +3,13 @@
 ## Description
 Ce projet Spring Boot est configuré pour être déployé dans un conteneur Docker avec une base de données MySQL.
 
+
+
+## Structure du projet
+
+<img width="547" height="601" alt="Capture d’écran 2025-11-25 à 19 44 35" src="https://github.com/user-attachments/assets/cec97a29-5e2f-407b-9e69-7cd878a16fd5" />
+
+
 ## Prérequis
 - Java 17
 - Maven 3.6+
@@ -70,9 +77,5 @@ docker-compose down
 docker-compose down -v
 ```
 
-## Structure du projet
-- `src/main/java/ma/ens/springdocker/` : Code source de l'application
-- `src/main/resources/application.properties` : Configuration de l'application
-- `Dockerfile` : Configuration pour construire l'image Docker
-- `docker-compose.yml` : Configuration pour orchestrer les conteneurs
+
 
