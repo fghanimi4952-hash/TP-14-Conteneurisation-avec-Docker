@@ -34,8 +34,17 @@ docker-compose logs -f
 ### 5. Accéder à l'application et aux interfaces graphiques
 - **Application Spring Boot** : http://localhost:8080
   - Endpoint principal : http://localhost:8080/
+ <img width="1206" height="748" alt="Capture d’écran 2025-11-25 à 19 29 43" src="https://github.com/user-attachments/assets/1dbc738b-9912-47cd-a53a-3e9072401c25" />
+
+    
   - Health check : http://localhost:8080/health
+ 
+    <img width="1206" height="748" alt="Capture d’écran 2025-11-25 à 19 30 22" src="https://github.com/user-attachments/assets/0eff3fed-2563-4af2-a605-41165ae8e405" />
+
   - API Users : http://localhost:8080/users
+  
+    <img width="1206" height="748" alt="Capture d’écran 2025-11-25 à 19 30 37" src="https://github.com/user-attachments/assets/90419a54-b234-4c5f-858a-123988aa5a32" />
+
 - **phpMyAdmin** (Interface graphique MySQL) : http://localhost:8081
   - Serveur : `mysql-db`
   - Utilisateur : `root`
